@@ -11,7 +11,7 @@ The ```notebooks``` folder is for IPython Notebooks.
 
 Because these are housed in a separate folder, this repo comes with the scaffolding needed to package your ```src``` easily, so you can import common code seamlessly without cluttering the home directory.
 
-Put all code in ```src``` from the beginnin :)
+Put all code in ```src``` from the beginning :)
 
 
 If on local and using pyenv, create a new environment with:
