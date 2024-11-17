@@ -1,3 +1,9 @@
+TODO: 
+1. move as much of this into a setup script as possible
+2. start your own caching library based on sebastian prillo's
+3. include that in the install by default, in addition to polars, seaborn, etc.
+
+
 If on local and using pyenv, create a new environment with:
 1. pyenv virtualenv <python-version> <env-name>
 2. cd to project
