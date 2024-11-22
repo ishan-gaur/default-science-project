@@ -2,6 +2,7 @@ TODO:
 1. move as much of this into a setup script as possible
 2. start your own caching library based on sebastian prillo's
 3. include that in the install by default, in addition to polars, seaborn, etc.
+4. add output and figures directorys, where output should have logging sent to it; a method to set this up should be included in the utils folder by default
 
 IMPORTANT: DELETE THE REPO .git folder BEFORE USING AND RE-RUN GIT INIT
 copy the pre-commit hook file into .git/hooks/ and run chmod +x .git/hooks/pre-commit
@@ -44,5 +45,8 @@ Make sure to check email to be the one you want correspondance to for this packa
 3. check whl is in the ./dist/ directory
 4. pip install -e .
 See [here](https://packaging.python.org/en/latest/tutorials/packaging-projects/) for more details.
+<<<<<<< HEAD
 
 You'll need to change the paths to constants in the utils and logging file to include the package name before running anything
+=======
+>>>>>>> ea2362b (planning notes)
