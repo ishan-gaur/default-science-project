@@ -21,6 +21,7 @@ If on local and using pyenv, create a new environment with:
 
 Edit the package directory name under the src folder
 Change all the fields with DEFAULT_* in the pyproject.toml
+1. Remember that package names can't have hyphens. This applies to the name in the toml and in the src folder.
 
 Make sure to check email to be the one you want correspondance to for this package
 1. python3 -m pip install --upgrade build
