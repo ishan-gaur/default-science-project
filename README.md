@@ -19,11 +19,14 @@ You may want to symlink your actual data directory into or to the data directory
 To symlink the datafolder to your /data directory do: ln -sT /data/path/to/source_folder ~/path/to/project/data
 You'll have to delete the .gitkeep file first though
 
-
 If on local and using pyenv, create a new environment with:
 1. pyenv virtualenv <python-version> <env-name>
 2. cd to project
 3. pyenv local <env-name> # to make it activate by default in the project folder
+
+If using conda/mamba:
+1. mamba create --name <env-name> python=3.10
+2. mamba activate <env-name>
 
 Edit the package directory name under the src folder
 Change all the fields with DEFAULT_* in the pyproject.toml
