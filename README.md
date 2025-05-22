@@ -44,3 +44,5 @@ Make sure to check email to be the one you want correspondance to for this packa
 3. check whl is in the ./dist/ directory
 4. pip install -e .
 See [here](https://packaging.python.org/en/latest/tutorials/packaging-projects/) for more details.
+
+You'll need to change the paths to constants in the utils and logging file to include the package name before running anything
