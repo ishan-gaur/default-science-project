@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Save current conda environment before each commit
+mamba env export --from-history > environment.yml
+
+# Stage the file
+git add environment.yml
