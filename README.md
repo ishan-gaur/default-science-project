@@ -1,8 +1,8 @@
 TODO: 
-1. move as much of this into a setup script as possible
-2. start your own caching library based on sebastian prillo's
-3. include that in the install by default, in addition to polars, seaborn, etc.
-4. add output and figures directorys, where output should have logging sent to it; a method to set this up should be included in the utils folder by default
+1. Fix the logging script in src to use the one from OAG so that we don't have these issues
+2. move as much of this into a setup script as possible
+3. start your own caching library based on sebastian prillo's
+4. include that in the install by default, in addition to polars, seaborn, etc.
 
 IMPORTANT: DELETE THE REPO .git folder BEFORE USING AND RE-RUN GIT INIT
 copy the pre-commit hook file into .git/hooks/ and run chmod +x .git/hooks/pre-commit
