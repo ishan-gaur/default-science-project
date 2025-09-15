@@ -1,4 +1,5 @@
 TODO: 
+0. the repo can now be imported as a package for the utilities, although maybe what I really wanted was that ever repo forks this one and then can rebase on top of this whenever I make changes. It doesn't make much sense for every repo to copy this and then also install it as a separate dependency so that it has the default tools. Maybe I can separate out the ds-default stuff from the file structure and setup notes
 1. Fix the logging script in src to use the one from OAG so that we don't have these issues, it is more easily extensible, and it doesn't have all the enzyme experiment defaults. I might want to configure it to use sacred.
 2. move as much of this into a setup script as possible
 3. start your own caching library based on sebastian prillo's
