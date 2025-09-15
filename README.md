@@ -1,5 +1,5 @@
 TODO: 
-1. Fix the logging script in src to use the one from OAG so that we don't have these issues
+1. Fix the logging script in src to use the one from OAG so that we don't have these issues, it is more easily extensible, and it doesn't have all the enzyme experiment defaults. I might want to configure it to use sacred.
 2. move as much of this into a setup script as possible
 3. start your own caching library based on sebastian prillo's
 4. include that in the install by default, in addition to polars, seaborn, etc.
@@ -35,8 +35,7 @@ If using conda/mamba:
 1. mamba create --name <env-name> python=3.10
 2. mamba activate <env-name>
 
-Edit the package directory name under the src folder
-Change all the fields with DEFAULT_* in the pyproject.toml
+Edit the package directory name under the src folder to match your intended package name. It is currently ds_default. Change all the fields with DEFAULT_* in the pyproject.toml
 1. Remember that package names can't have hyphens. This applies to the name in the toml and in the src folder.
 
 Make sure to check email to be the one you want correspondance to for this package
@@ -45,8 +44,5 @@ Make sure to check email to be the one you want correspondance to for this packa
 3. check whl is in the ./dist/ directory
 4. pip install -e .
 See [here](https://packaging.python.org/en/latest/tutorials/packaging-projects/) for more details.
-<<<<<<< HEAD
 
 You'll need to change the paths to constants in the utils and logging file to include the package name before running anything
-=======
->>>>>>> ea2362b (planning notes)

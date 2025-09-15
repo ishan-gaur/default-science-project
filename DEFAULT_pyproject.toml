@@ -3,18 +3,18 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ds_default"
+name = "DEFAULT_PKG"
 version = "0.0.0"
 authors = [
-  { name="Ishan Gaur", email="ishangaur4@gmail.com" },
+  { name="Ishan Gaur", email="DEFAULT_EMAIL" },
 ]
-description = "Package with conveniences I like in a data science/research project."
+description = "DEFAULT"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.DEFAULT_VERSION"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
 
 [project.urls]
-Homepage = "https://github.com/ishan-gaur/default-science-project"
+Homepage = "https://github.com/ishan-gaur/DEFAULT_REPO_NAME"
